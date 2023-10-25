@@ -1,5 +1,11 @@
-# Potencia Tech iFood
-Potência Tech iFood - Desenvolvimento de Jogos  - Dio
+
+<h1>
+     <img align="center" width="80px" src="https://hermes.dio.me/tracks/83f8150a-6429-4c1a-9207-d5bff610f647.png">
+    <span>Potência Tech iFood - Desenvolvimento de Jogos</span>
+</h1>
+<span>
+      Potência Tech iFood - Desenvolvimento de Jogos  - Dio <img align="center" width="20px" src="https://hermes.digitalinnovation.one/assets/diome/logo-minimized.png">
+</span>
 
 ## Objetivo
 Esse Repositório tem como objetivo armazenar todos os projetos que serão desenvolvidos através do curso da DIO.
