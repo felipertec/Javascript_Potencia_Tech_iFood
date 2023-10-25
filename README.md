@@ -1,4 +1,4 @@
-# Potencia_Tech_iFood
+# Potencia Tech iFood
 Potência Tech iFood - Desenvolvimento de Jogos  - Dio
 
 ## Objetivo
