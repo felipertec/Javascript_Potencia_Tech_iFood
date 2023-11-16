@@ -23,10 +23,17 @@ function countDown() {
     state.view.timeLeft.textContent = state.values.currentTime;
 
     if (state.values.currentTime <= 0) {
+        playSound('game-over.m4a')
         clearInterval(state.actions.countDownTimerId)
         clearInterval(state.actions.timeId)
         alert("Game Over! O resultado foi: " + state.values.result);
     }
+}
+
+function playSound(audioName){
+    let audio = new Audio(`./src/audios/${audioName}`)
+    audio.volume = 0.2;
+    audio.play();
 }
 
 function randomSquare() {
@@ -37,20 +44,20 @@ function randomSquare() {
     let randomNumber = Math.floor(Math.random() * 9);
     let randomSquare = state.view.squares[randomNumber];
     randomSquare.classList.add("enemy");
-    state.values.hitPosition = randomSquare;
+    state.values.hitPosition = randomSquare.id;
 }
 
 
 function addListenerHitBox() {
     state.view.squares.forEach((square) => {
         square.addEventListener("mousedown", () => {
-            alert(state.values.hitPosition)
-            if (square.id === state.values.hitPosition) {
-                alert("Clicou")
-                state.values.result++;
-                state.view.score.textContent = state.values.result;
-                state.values.hitPosition = null;
-            }
+        if(square.id === state.values.hitPosition){
+            state.values.result++;
+            state.view.score.textContent = state.values.result;
+            state.values.hitPosition = null;
+            playSound('hit.m4a');
+            //playSound('battle.m4a');
+        }
         })
     });
 }
@@ -59,4 +66,10 @@ function initialize() {
     addListenerHitBox();
 }
 
+    playSound('battle.m4a');
+
+
 initialize();
+setInterval(() => {
+    playSound('battle.m4a');
+},11000)
