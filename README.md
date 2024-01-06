@@ -19,7 +19,7 @@ Esse Repositório tem como objetivo armazenar todos os projetos que serão desen
 | 04  |Aprimorando Sua Lógica de Programação com Desafios de Código Básicos|[![acessar](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)|[![emprogresso](https://img.shields.io/badge/Finalizado-006400?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)| 
 | 05  |Avançando no JavaScript com Assíncronismo|[![acessar](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)|[![emprogresso](https://img.shields.io/badge/Finalizado-006400?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)| 
 | 06  |Consolidando Conceitos com Desafios de Código em JavaScript|[![acessar](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)|[![emprogresso](https://img.shields.io/badge/Finalizado-006400?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)| 
-| 07  |Construindo o seu Portfólio de Jogos com JavaScript|[![acessar](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)|[![emprogresso](https://img.shields.io/badge/Em_Progresso-FFBF00?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)| 
+| 07  |Construindo o seu Portfólio de Jogos com JavaScript|[![acessar](https://img.shields.io/badge/Acessar-000?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)|[![emprogresso](https://img.shields.io/badge/Finalizado-006400?style=for-the-badge)](https://github.com/felipertec/Potencia_Tech_iFood)| 
 
 
 
